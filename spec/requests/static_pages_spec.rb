@@ -29,7 +29,7 @@ shared_examples_for "all static pages" do
   describe "About page" do
     before { visit about_path }
     let(:heading)    { 'About' }
-    let(:page_title) { 'About us'}
+    let(:page_title) { 'About Us'}
    
     it_should_behave_like "all static pages"
   end
