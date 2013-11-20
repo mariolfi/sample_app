@@ -74,7 +74,6 @@ describe "User pages" do
       it "should not create a user" do
         expect { click_button submit }.not_to change(User, :count)
       end
-    
       
       describe "with errors" do
         before { click_button submit }
